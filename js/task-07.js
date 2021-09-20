@@ -1,6 +1,6 @@
-const inputRef = document.querySelector("#font-size-control");
-const magicSpanTextRef = document.querySelector("#text");
+const inputRef = document.querySelector('#font-size-control');
+const magicSpanTextRef = document.querySelector('#text');
 
-inputRef.addEventListener("input", (event) => {
-  magicSpanTextRef.style.fontSize = event.currentTarget.value + "px";
+inputRef.addEventListener('input', event => {
+  magicSpanTextRef.style.fontSize = event.currentTarget.value + 'px';
 });
